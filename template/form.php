@@ -106,6 +106,14 @@
         <!-- partial -->
         <div class="main-panel">
             <div class="content-wrapper">
+                <div class="row purchace-popup">
+                    <div class="col-12">
+                        <span class="d-block d-md-flex align-items-center">
+                            <p><?php ?></p>
+                            <i class="mdi mdi-close popup-dismiss d-none d-md-block"></i>
+                        </span>
+                    </div>
+                </div>
                 <div class="row">
                     <?php include $_template->view;?>
                 </div>
